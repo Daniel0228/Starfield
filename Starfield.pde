@@ -1,4 +1,4 @@
-Particle [] bob = new Particle [900];
+Particle [] bob = new Particle [700];
 
 
 void setup()
@@ -42,7 +42,7 @@ class Particle
 void show()
 {
   fill(thisColor);
-  ellipse((float)myX,(float)myY,5,5);
+  ellipse((float)myX,(float)myY,6,6);
 }
 
 void move()
